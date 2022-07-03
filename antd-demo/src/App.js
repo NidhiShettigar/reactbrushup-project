@@ -1,102 +1,9 @@
-// import React from 'react';
-// import './App.css';
-// import { FileOutlined, PieChartOutlined, UserOutlined } from '@ant-design/icons';
-// import { Breadcrumb, Layout, Menu, Row, Col, Card, Typography } from 'antd';
-// import { useState } from 'react';
-
-// let { Title } = Typography;
-
-// const { Header, Content, Footer, Sider } = Layout;
-// const { SubMenu } = Menu;
-
-// const App = () => {
-//   const [collapsed, setCollapsed] = useState(false);
-  
-//   return (
-//     <Layout
-//       style={{
-//         minHeight: '100vh',
-//       }}
-//     >
-//       <Sider collapsible collapsed={collapsed} onCollapse={() => setCollapsed(!collapsed)}>
-//         <div className="logo" />
-//         <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline"  />
-//       </Sider>
-//       <Layout className="site-layout">
-//         <Header
-//           className="site-layout-background"
-//           style={{
-//             padding: 0,
-//           }}
-//         />
-//         <Content
-//           style={{
-//             margin: '0 16px',
-//           }}
-//         >
-//           <Breadcrumb
-//             style={{
-//               margin: '16px 0',
-//             }}
-//           >
-//             <Breadcrumb.Item>User</Breadcrumb.Item>
-//             <Breadcrumb.Item>Bill</Breadcrumb.Item>
-//           </Breadcrumb>
-//           <div
-//             className="site-layout-background"
-//             style={{
-//               padding: 24,
-//               minHeight: 360,
-//             }}
-//           >
-//           <Title>Dashboard</Title>
-//             <Row>
-//               <Col>
-//                 <Card
-//                   title="Default size card"
-//                   extra={<a href="#">More</a>}
-//                   style={{
-//                     width: 300,
-//                   }}
-//                 >
-//                   <p>Card content</p>
-//                   <p>Card content</p>
-//                   <p>Card content</p>
-//                 </Card>
-//                 <Card
-//                   size="small"
-//                   title="Small size card"
-//                   extra={<a href="#">More</a>}
-//                   style={{
-//                     width: 300,
-//                   }}
-//                 >
-//                   <p>Card content</p>
-//                   <p>Card content</p>
-//                   <p>Card content</p>
-//                 </Card>
-//               </Col>
-//             </Row>
-
-//           </div>
-//         </Content>
-//         <Footer
-//           style={{
-//             textAlign: 'center',
-//           }}
-//         >
-//           Ant Design ©2018 Created by Ant UED
-//         </Footer>
-//       </Layout>
-//     </Layout>
-//   );
-// };
-
-// export default App;
 import './App.css';
 import { FileOutlined, PieChartOutlined, UserOutlined, DesktopOutlined, TeamOutlined } from '@ant-design/icons';
 import { Breadcrumb, Layout, Menu, Row, Card, Col, Typography } from 'antd';
 import { useState } from 'react';
+
+import AppHeader from './components/common/header';
 
 let { Title } = Typography;
 
@@ -136,12 +43,10 @@ const App = () => {
         <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline" items={items} />
       </Sider>
       <Layout className="site-layout">
-        <Header
-          className="site-layout-background"
-          style={{
-            padding: 0,
-          }}
-        />
+        <Header>
+          <AppHeader/>
+        </Header>
+
         <Content
           style={{
             margin: '0 16px',
