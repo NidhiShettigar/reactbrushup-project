@@ -42,14 +42,15 @@ const App = () => {
         <div className="logo" />
         <Menu theme="dark" defaultSelectedKeys={['1']} mode="inline" items={items} />
       </Sider>
+      
       <Layout className="site-layout">
-        <Header>
+      <Header>
           <AppHeader/>
-        </Header>
+      </Header>
 
         <Content
           style={{
-            margin: '0 16px',
+            margin: '40px 16px',
           }}
         >
           <Breadcrumb
