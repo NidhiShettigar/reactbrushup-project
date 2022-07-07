@@ -4,6 +4,7 @@ import { Breadcrumb, Layout, Menu, Row, Card, Col, Typography } from 'antd';
 import { useState } from 'react';
 
 import AppHeader from './components/common/header';
+import SelectColor from './components/common/selectColor';
 
 let { Title } = Typography;
 
@@ -76,10 +77,13 @@ const App = () => {
                   extra={<a href="#">More</a>}
                   style={{
                      width: 300,
+                     backgroundColor: "pink",
                    }}
                 >
                   <p>Card content</p>
-                   <p>Card content</p>                   <p>Card content</p>
+                   <p>Card content</p>                   
+                   <p>Card content</p>
+                   <SelectColor/>
                  </Card>
                  <Card
                   size="small"
