@@ -5,7 +5,7 @@ import { useState } from 'react';
 
 import AppHeader from './components/common/header';
 import SelectColor from './components/common/selectColor';
-
+import CommemtBox from './components/commentBox';
 let { Title } = Typography;
 
 const { Header, Content, Footer, Sider } = Layout;
@@ -101,6 +101,7 @@ const App = () => {
                </Col>
              </Row>
           </div>
+          <CommemtBox/>
         </Content>
         <Footer
           style={{
