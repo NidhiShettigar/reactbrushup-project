@@ -6,6 +6,8 @@ import { useState } from 'react';
 import AppHeader from './components/common/header';
 import SelectColor from './components/common/selectColor';
 import CommemtBox from './components/commentBox';
+import Statics from './components/statistic';
+
 let { Title } = Typography;
 
 const { Header, Content, Footer, Sider } = Layout;
@@ -96,7 +98,7 @@ const App = () => {
                   <p>Card content</p>
                   <p>Card content</p>
                   <p>Card content</p>
-                  
+                  <Statics/>
                  </Card>
                </Col>
              </Row>
