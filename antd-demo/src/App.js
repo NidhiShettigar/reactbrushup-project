@@ -82,7 +82,7 @@ const App = () => {
                      backgroundColor: "pink",
                    }}
                 >
-                  <p>Card content</p>
+                  <p>Card content1</p>
                    <p>Card content</p>                   
                    <p>Card content</p>
                    <SelectColor/>
