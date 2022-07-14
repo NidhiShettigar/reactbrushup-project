@@ -83,7 +83,7 @@ const App = () => {
                    }}
                 >
                   <p>Card content1</p>
-                   <p>Card content</p>                   
+                   <p>Card content2</p>                   
                    <p>Card content</p>
                    <SelectColor/>
                  </Card>
