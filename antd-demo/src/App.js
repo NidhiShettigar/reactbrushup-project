@@ -95,7 +95,7 @@ const App = () => {
                     width: 300,
                    }}
                  >
-                  <p>Card content</p>
+                  <p>Card content1</p>
                   <p>Card content</p>
                   <p>Card content</p>
                   <Statics/>
