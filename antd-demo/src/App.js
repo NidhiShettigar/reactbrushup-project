@@ -62,7 +62,7 @@ const App = () => {
             }}
           >
             <Breadcrumb.Item>User1</Breadcrumb.Item>
-            <Breadcrumb.Item>Billi</Breadcrumb.Item>
+            <Breadcrumb.Item>Billis</Breadcrumb.Item>
           </Breadcrumb>
           <div
             className="site-layout-background"
