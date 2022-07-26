@@ -76,7 +76,7 @@ const App = () => {
                <Col>
                  <Card
                   title="Default size card"
-                  extra={<a href="#">See More</a>}
+                  extra={<a href="#">See More Content</a>}
                   style={{
                      width: 300,
                      backgroundColor: "pink",
