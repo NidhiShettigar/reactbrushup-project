@@ -71,7 +71,7 @@ const App = () => {
               minHeight: 360,
             }}
           >
-            <Title>Dashboard page</Title>
+            <Title>Dashboards pages</Title>
              <Row>
                <Col>
                  <Card
