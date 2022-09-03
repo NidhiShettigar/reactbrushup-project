@@ -62,7 +62,7 @@ const App = () => {
             }}
           >
             <Breadcrumb.Item>Users Name</Breadcrumb.Item>
-            <Breadcrumb.Item>Bills</Breadcrumb.Item>
+            <Breadcrumb.Item>Bill gates</Breadcrumb.Item>
           </Breadcrumb>
           <div
             className="site-layout-background"
